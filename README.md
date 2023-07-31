@@ -1,4 +1,4 @@
-# coding-interview-v2
+# Simple Application
 I made this application myself
 
 # feature 
