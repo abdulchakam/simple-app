@@ -20,4 +20,4 @@ I made this application myself
    - Run the application in the main SimpleApplication method Or type command in terminal mvn spring-boot:run, wait until the process is complete
    - After that open browser copy and paste this url **http://localhost:8080/swagger-ui/index.html#/**
    - You can create a user first in the **/user/create** endpoint and for the request id set to null
-   - After that you can log in with the user you created to get an access token
+   - After that you can **/login** with the user you created to get an access token
