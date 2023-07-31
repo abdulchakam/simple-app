@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 @OpenAPIDefinition(
 		info = @Info(title = "Simple my app", version = "1.0", description = "Simple App [Login Jwt token, CRUD User] RESTFul API",
-				contact = @Contact(name = "Muhammad Abdul Chakam", email = "muhabdulchakam@gmail.com", url = "https://github.com/abdulchakam/coding-interview-v2")))
+				contact = @Contact(name = "Muhammad Abdul Chakam", email = "muhabdulchakam@gmail.com", url = "https://github.com/abdulchakam/simple-app")))
 public class SimpleApplication {
 
 	public static void main(String[] args) {
