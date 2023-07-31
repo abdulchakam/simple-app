@@ -48,6 +48,7 @@ public class WebSecurityConfig{
                 .csrf(AbstractHttpConfigurer::disable)
                 .authorizeHttpRequests(auth ->{
                     auth.requestMatchers("/auth/**").permitAll();
+                    auth.requestMatchers("/user/create").permitAll();
                     auth.requestMatchers("/swagger-ui/**").permitAll();
                     auth.requestMatchers("/swagger-resources/**").permitAll();
                     auth.requestMatchers("/v3/api-docs").permitAll();

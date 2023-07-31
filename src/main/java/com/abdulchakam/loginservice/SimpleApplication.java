@@ -10,10 +10,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @OpenAPIDefinition(
 		info = @Info(title = "Simple my app", version = "1.0", description = "Simple App [Login Jwt token, CRUD User] RESTFul API",
 				contact = @Contact(name = "Muhammad Abdul Chakam", email = "muhabdulchakam@gmail.com", url = "https://github.com/abdulchakam/coding-interview-v2")))
-public class LoginServiceApplication {
+public class SimpleApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LoginServiceApplication.class, args);
+		SpringApplication.run(SimpleApplication.class, args);
 	}
 
 }
